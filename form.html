@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form action="" method="post" enctype="multipart/form-data">
+      <h2>Create Account</h2>
+      <div>
+        <p>Registration information</p>
+        <div>
+          <label for="firstname"><b>First Name*:</b>&emsp13;</label>
+          <input
+            id="firstname"
+            type="text"
+            placeholder="enter your first name"
+          />
+          <label for="lastname">&emsp;<b>Last Name:</b>&emsp13;</label>
+          <input id="lastname" type="text" placeholder="enter your last name" />
+        </div>
+        <div>
+          <label for="email"><b>Email*:</b>&emsp13;</label>
+          <input id="email" type="email" placeholder="enter your email" />
+          <label for="phone">&emsp;<b>Phone*:</b>&emsp13;</label>
+          <input id="phone" type="text" placeholder="enter your phone number" />
+        </div>
+        <div>
+          <label for="password"><b>First Name*:</b>&emsp13;</label>
+          <input
+            id="password"
+            type="password"
+            placeholder="enter your password"
+          />
+          <label for="confirm-password"
+            >&emsp;<b>Confirm-password*:</b>&emsp13;</label
+          >
+          <input
+            id="confirm-password"
+            type="password"
+            placeholder="enter your password again"
+          />
+        </div>
+      </div>
+      <div>
+        <p>Pesoal Information</p>
+        <div>
+          <label for="gender"><b>Gender</b>&emsp13;</label>
+          <input type="radio" name="gender" value="nam" /><span
+            >&emsp13;Male&emsp13;</span
+          >
+          <input type="radio" name="gender" value="nu" /><span
+            >&emsp13;Female&emsp13;</span
+          >
+          <label for="hobbies"><b>Hobbies</b></label>
+          <input type="checkbox" name="hobbies" value="Music" /><span
+            >&emsp13;Music&emsp13;</span
+          >
+          <input type="checkbox" name="hobbies" value="Sports" /><span
+            >&emsp13;Sports&emsp13;</span
+          >
+          <input type="checkbox" name="hobbies" value="Travel" /><span
+            >&emsp13;Travel&emsp13;</span
+          >
+          <input type="checkbox" name="hobbies" value="Movies" /><span
+            >&emsp13;Movies&emsp13;</span
+          >
+        </div>
+        <div>
+          <label for=""><b>Source of Income: </b>&emsp;</label>
+          <select name="" id="">
+            <option value="empployed">Employed</option>
+          </select>
+          <label for="">&emsp;<b>Income: </b>&emsp;</label>
+          <input type="range" name="" id="" value="0" />
+        </div>
+        <div>
+          <label for=""><b>Age: </b>&emsp;</label>
+          <input type="number" value="18" />
+          <label for="">&emsp;<b>Profile Picture : </b>&emsp;</label>
+          <input type="file" />
+        </div>
+        <div>
+          <label for=""><b>Birthday: </b>&emsp;</label>
+          <input type="date" />
+          <label for="">&emsp;<b>Address : </b>&emsp;</label>
+          <input type="text" />
+        </div>
+        
+
+        <div>
+            <label for=""><b>Bio: </b>&emsp;</label>
+            <textarea name="" id="" cols="50" rows="4"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Create">
+            <input type="reset" value="Reset">
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
