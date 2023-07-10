@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <table  border="4" cellpadding="20" cellspacing="0" width="100%">
+        <!-- Tiêu đề bảng-->
+        <caption><h1>My Table</h1></caption>
+        <!-- Phần đầu bảng -->
+        <thead>
+            <tr bgcolor="red">
+                <th height="50" valign="top">
+                    STT
+                </th>
+                <th>
+                    Họ và Tên
+                </th>
+                <th>
+                    Tuổi
+                </th>
+                <th>
+                    Quê Quán
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr bgcolor="aqua">
+                <td>1</td>
+                <td>Nguyễn Văn A</td>
+                <td align="right">22</td>
+                <td rowspan="4">Hà Nội</td>
+            </tr>
+            <tr bgcolor="green">
+                <td>2</td>
+                <td>Nguyễn Văn B</td>
+                <td>22</td>
+                <!-- <td>Hà Nội</td> -->
+            </tr>
+            <tr bgcolor="pink">
+                <td>3</td>
+                <td>Nguyễn Văn C</td>
+                <td>22</td>
+                <!-- <td>Hà Nội</td> -->
+            </tr>
+            <tr bgcolor="orange">
+                <td>4</td>
+                <td>Nguyễn Văn D</td>
+                <td>22</td>
+                <!-- <td>Hà Nội</td> -->
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr bgcolor="yellow">
+              
+                <th colspan="2">Sĩ số</th>
+                <td colspan="2">4</td>
+              
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
